@@ -2,7 +2,8 @@
 const Sort = arr => {
   let i = arr.length;
   // let temp;
-  while (i > 0) {
+  while (i > 0
+    ) {
     for (let j = 0; j < arr.length; j++) {
       // console.log (typeof parseInt(arr[j].substring(1)));
       if (parseInt(arr[j].substring(1)) > parseInt(arr[j+1].substring(1))) {
